@@ -1,11 +1,25 @@
 import './App.css';
 import React from 'react';
-import NavigationBar from './components/NavigationBar';
+import {
+  createBrowserRouter,
+  RouterProvider
+} from "react-router-dom"
+
+import IndexPage from './pages';
+import ErrorPage from './pages/error';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <IndexPage />,
+    errorElement: <ErrorPage />,
+  }
+])
 
 function App() {
   return (
     <React.Fragment>
-      <NavigationBar />
+      <RouterProvider router={router} />
     </React.Fragment>
   );
 }
