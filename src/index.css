@@ -32,6 +32,15 @@ code {
     button {
       padding: 1em;
     }
+
+    img.icon {
+      height: 1em;
+      padding: 0 2em
+    }
+
+    .desktop-only {
+      display: hidden
+    }
   }
 
 }

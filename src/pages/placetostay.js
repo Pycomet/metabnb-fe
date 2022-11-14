@@ -30,7 +30,7 @@ const PlaceToStayPage = () => {
 
 
                 <div className="font-redrose md:my-20 my-10">
-                    <div className="flex md:flex-row flex-col-reverse text-start items-baseline text-xl md:gap-14 gap-2">
+                    <div className="flex lg:flex-row flex-col-reverse text-start items-baseline text-xl lg:gap-14 gap-2">
                         <p>Restaurant</p>
                         <p>Cottage</p>
                         <p>Castle</p>
@@ -42,7 +42,7 @@ const PlaceToStayPage = () => {
                         <span className="flex gap-6 text-lg border-[1px] border-[#A3A3A3] mb-2 py-2 px-4 rounded-[10px]">Location <img src={SettingIcon} alt="settings" /></span>
                     </div>
 
-                    <div className="mt-10 grid md:grid-cols-4 gap-8">
+                    <div className="mt-10 grid lg:grid-cols-4 md:grid-cols-2 gap-8">
                         <ItemCard imageSrc={Image10} />
                         <ItemCard imageSrc={Image11} />
                         <ItemCard imageSrc={Image12} />
