@@ -9,12 +9,12 @@ export default class NavigationBar extends PureComponent {
 
     render() {
         return (
-            <div className="flex flex-row items-center justify-between py-6">
-                    <div className="md:w-40 w-1/3 ml-2">
+            <div className="flex flex-row items-center justify-between py-6 font-redrose">
+                    <div className="md:w-60 w-1/3 ml-2">
                         <img src={logo} alt="logo" />
                     </div>
 
-                    <div className="md:w-1/3 md:flex md:flex-row text-xl font-normal md:justify-between hidden">
+                    <div className="md:w-1/3 md:flex md:flex-row text-lg font-normal md:justify-between hidden">
                         <h3>Home</h3>
                         <h3>Place to stay</h3>
                         <h3>NFTs</h3>
