@@ -6,6 +6,7 @@ import {
 } from "react-router-dom"
 
 import IndexPage from './pages';
+import PlaceToStayPage from './pages/placetostay';
 import ErrorPage from './pages/error';
 
 const router = createBrowserRouter([
@@ -13,6 +14,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <IndexPage />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "/placetostay",
+    element: <PlaceToStayPage />,
+    errorElement: <ErrorPage />
   }
 ])
 
