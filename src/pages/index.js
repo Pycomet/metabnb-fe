@@ -7,7 +7,7 @@ import ItemCard from "../components/ItemCard"
 import MbToken from "../assets/mbtoken.svg"
 import Meta from "../assets/metamask-white.svg"
 import Opensea from "../assets/opensea.svg"
-import NftFrame from "../assets/nft-frame.svg"
+import NftFrame from "../assets/nft-frame.png"
 
 import Image1 from "../assets/frame1.png"
 import Image2 from "../assets/frame2.png"
