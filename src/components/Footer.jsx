@@ -1,7 +1,7 @@
 import React from "react";
 import { PureComponent } from "react";
 
-import logo from "../assets/logo-white.svg"
+import logo from "../assets/logo-white.png"
 import CopyRight from "../assets/copyright.svg"
 
 import { ImFacebook, ImTwitter, ImInstagram } from "react-icons/im"

@@ -9,14 +9,14 @@ import Meta from "../assets/metamask-white.svg"
 import Opensea from "../assets/opensea.svg"
 import NftFrame from "../assets/nft-frame.svg"
 
-import Image1 from "../assets/frame1.svg"
-import Image2 from "../assets/frame2.svg"
-import Image3 from "../assets/frame3.svg"
-import Image4 from "../assets/frame4.svg"
-import Image5 from "../assets/frame5.svg"
-import Image6 from "../assets/frame6.svg"
-import Image7 from "../assets/frame7.svg"
-import Image8 from "../assets/frame8.svg"
+import Image1 from "../assets/frame1.png"
+import Image2 from "../assets/frame2.png"
+import Image3 from "../assets/frame3.png"
+import Image4 from "../assets/frame4.png"
+import Image5 from "../assets/frame5.png"
+import Image6 from "../assets/frame6.png"
+import Image7 from "../assets/frame7.png"
+import Image8 from "../assets/frame8.png"
 
 const IndexPage = () => {
 

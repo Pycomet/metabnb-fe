@@ -2,8 +2,8 @@ import { PureComponent } from "react";
 
 import Image1 from "../assets/image3.png"
 import Image2 from "../assets/image4.png"
-import Image3 from "../assets/image5.svg"
-import Image4 from "../assets/image6.svg"
+import Image3 from "../assets/image5.png"
+import Image4 from "../assets/image6.png"
 
 export default class HeaderSection extends PureComponent {
 
